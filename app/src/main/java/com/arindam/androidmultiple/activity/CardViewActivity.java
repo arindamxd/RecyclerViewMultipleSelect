@@ -37,7 +37,7 @@ public class CardViewActivity extends AppCompatActivity {
         btnSelection = (Button) findViewById(R.id.btnShow);
 
         studentList = new ArrayList<Student>();
-        for (int i = 1; i <= 500; i++) {
+        for (int i = 1; i <= 200; i++) {
             Student st = new Student("Student " + i, "androidstudent" + i + "@gmail.com", false);
             studentList.add(st);
         }
